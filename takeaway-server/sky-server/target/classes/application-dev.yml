@@ -1,0 +1,21 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: waimai
+    username: root
+    password: 123456
+  alioss:
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    access-key-id: LTAI5tJF3si3JyHePMwuesDL
+    access-key-secret: fWNlZ3plNa2D5p1xYOYbPtC25PAX6C
+    bucket-name: whisperwjw
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 10
+  wechat:
+    appid: wx69b8fc0a1ee48e60
+    secret: 34505f1c72eaf0e2e85f9c04d144ef35
